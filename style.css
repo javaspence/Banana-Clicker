@@ -24,21 +24,31 @@
   height: 350px;
   background:blue;
   float: left;
+  z-index: 1;
 }
 #main { 
-    width: 700px;
+    width: auto;
+    height: auto;
     margin: 0 auto;
 }
+#main2 {
+  width: 1000px;
+  margin: 0 auto;
+  display: flex;
+}
 #click area  {
-  width: 600px;
+  width: 200px;
   background: #ffffff;
   height: 400px;
-  margin-left: 200px;
+  margin: auto;
+  z-index: 2;
 }
 #gameinfo {
+  flex: 1;
   margin: auto;
   width: 50%;
   border: 3px solid green;
+  height: 500px;
   padding: 10px;
   background: rgb(250,249,0);
   background: linear-gradient(90deg, rgba(250,249,0,1) 0%, rgba(25,121,9,1) 19%, rgba(11,198,255,1) 66%, rgba(0,89,255,1) 100%);
@@ -48,6 +58,7 @@
   border: 5px solid blue;
   margin: auto;
   width: 50%;
+  height: 500px;
   background: rgb(249,101,116);
   background: linear-gradient(90deg, rgba(249,101,116,1) 0%, rgba(153,190,27,1) 66%);
 }
